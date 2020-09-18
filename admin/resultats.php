@@ -1,5 +1,5 @@
 <?php
-include('../include/connexiondbval.php');
+include('../traitements/connexiondb.php');
 session_start();
 $p = $_GET['team'];
 $pseudo = $_SESSION['pseudo'];

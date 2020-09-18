@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../../include/connexiondbval.php');
+include('../../traitements/connexiondb.php');
 
 $teamname = $_POST['teamname'];
 $password = $_POST['password'];

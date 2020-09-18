@@ -1,5 +1,5 @@
 <?php session_start();
-include ('../include/connexiondbval.php'); 
+include ('../traitements/connexiondb.php'); 
 $team = $_SESSION['team'];
 ?>
 <!DOCTYPE html>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../include/connexiondbval.php');
+include('../traitements/connexiondb.php');
 
 $pseudo = $_POST['pseudo'];
 $mdp = $_POST['mdp'];

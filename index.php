@@ -1,4 +1,4 @@
-<?php include('include/connexiondbval.php'); ?>
+<?php include('traitements/connexiondb.php'); ?>
 <!doctype html>
 <html lang="fr">
 

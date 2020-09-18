@@ -1,4 +1,4 @@
-<?php require_once('connexiondbval.php'); ?>
+<?php require_once('../connexiondb.php'); ?>
 <Footer>
     <p class="footertitle">Partenaires</p>
     <div class="mx-auto container_footer">
@@ -17,6 +17,6 @@
           <?php } ?>
     </div>
 
-    <div class="copy"><a href="mention.php" style="text-decoration:none; color:white">Mentions Légales</a></div>
+    <div class="copy"><a href="../mention.php" style="text-decoration:none; color:white">Mentions Légales</a></div>
     <div class="copy">© Copyright 2020 JJ.Yoyo.Val.Antho</div>
 </footer>

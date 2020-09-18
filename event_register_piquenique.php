@@ -1,4 +1,4 @@
-<?php include('include/connexiondbval.php'); ?>
+<?php include('traitements/connexiondb.php'); ?>
 <!doctype html>
 <html lang="fr">
 
@@ -64,7 +64,7 @@
         <h2 class="title2 mt-3">Il ne reste malheureusement plus de places pour les repas à 3€, votre repas vous sera facturé 5€.</h2>
       <?php } ?>
     <h2 class="title2 mt-3">Etablissement</h2>
-    <form id="inscription" class="contact-form row w-100 justify-content-center" action="include/piqueniqueregister.php" method="post">
+    <form id="inscription" class="contact-form row w-100 justify-content-center" action="traitements/piqueniqueregister.php" method="post">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
         <center><select class="custom-select" name="etablissement" id="etablissement-font-7" required>
             <option value="" disabled selected>Veuillez choisir un établissement</option>

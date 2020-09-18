@@ -1,5 +1,5 @@
 <?php
-include('connexiondbval.php');
+include('connexiondb.php');
 
 $establishment = !empty($_POST['etablissement']) ? $_POST['etablissement'] : NULL;
 $name = !empty($_POST['name']) ? $_POST['name'] : NULL;

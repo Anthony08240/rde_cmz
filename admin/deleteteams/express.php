@@ -1,5 +1,5 @@
 <?php
-include('../../include/connexiondbval.php');
+include('../../traitements/connexiondb.php');
 
 foreach($_POST['groupe'] as $team => $value) {
 

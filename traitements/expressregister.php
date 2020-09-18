@@ -1,6 +1,6 @@
 <?php
 
-include('connexiondbval.php');
+include('connexiondb.php');
 
 $establishment = !empty($_POST['etablissement']) ? $_POST['etablissement'] : NULL;
 

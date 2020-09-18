@@ -53,7 +53,7 @@
   <section class="get-in-touch container-lg">
     <h1 class="title">Inscription Carolo Warrior</h1><br>
     <h2 class="title2 mt-3">Etablissement</h2>
-    <form id="inscription" class="contact-form row w-100 justify-content-center" action="include/warriorregister.php" method="post">
+    <form id="inscription" class="contact-form row w-100 justify-content-center" action="traitements/warriorregister.php" method="post">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
         <center><select class="custom-select" name="etablissement" id="etablissement-font-4" required>
             <option value="" disabled selected>Veuillez choisir un établissement</option>

@@ -1,5 +1,5 @@
 <?php
-include ('../../../include/connexiondbval.php');
+include ('../../../traitements/connexiondb.php');
 session_start();
 $pseudo = $_SESSION['pseudo'];
 if (isset($pseudo)){
