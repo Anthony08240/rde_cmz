@@ -320,9 +320,9 @@
             <!-- LAYER NR. 19 -->
 
             <?php
-                if (date("dm") == "2409" && (date("H") >=6 && date("H") <= 17))
+                if (date("dm") == "1809" && (date("H") >=6 && date("H") <= 17))
             {?>
-                <a class="tp-caption  slidhover  tp-resizeme" href="#videoaccueil"
+                <a class="tp-caption  slidhover  tp-resizeme" href="qcm"
                 id="slide-32-layer-20" data-x="['center','center','center','center']"
                 data-hoffset="['450','450','370','160']" data-y="['bottom','bottom','bottom','bottom']"
                 data-voffset="['100','100','200','86']" data-fontsize="['30','30','26','22']"
