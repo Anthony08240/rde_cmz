@@ -1,4 +1,4 @@
-<?php require_once('../connexiondb.php'); ?>
+<?php require_once('traitements/connexiondb.php'); ?>
 <Footer>
     <p class="footertitle">Partenaires</p>
     <div class="mx-auto container_footer">
