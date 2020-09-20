@@ -32,7 +32,6 @@ if (isset($pseudo)){
         <div class="row justify-content-center container mx-auto">
             <div class="tab-content" id="myTabContent">
 
-            <!-- Mairie -->
                     <table class="table">
                     <thead class="thead-light">
                         <tr>
@@ -41,8 +40,6 @@ if (isset($pseudo)){
                         <th scope="col">Points pour l'emplacement</th>
                         <th scope="col">Heure de validation</th>
                         <th scope="col">Réponse</th>
-                        <!-- <th scope="col">Photo challenge</th>
-                        <th scope="col">Télécharger la photo</th> -->
                         </tr>
                     </thead>
                     <tbody>
@@ -60,10 +57,6 @@ if (isset($pseudo)){
                         <td><?= $donnees['points']; ?></td>
                         <td><?= $donnees['heure']; ?></td>
                         <td><?= $donnees['reponse_name']; ?></td>
-                        <!-- 
-                        <td><img src="../qcm/img_user/" style="width:auto;height:200px;"></td>
-                        <td><center><a class="btn btn-primary" href="../qcm/img_user/" download="">Télécharger</a></center></td>
-                        </tr> -->
                         <?php
                             } $req->closecursor();
                         ?>
