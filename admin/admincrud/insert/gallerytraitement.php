@@ -9,7 +9,7 @@ $avatar = !empty($_POST['avatar']) ? $_POST['avatar'] : NULL;
 $alt = !empty($_POST['alt']) ? $_POST['alt'] : NULL;
 $category = !empty($_POST['category']) ? $_POST['category'] : NULL;
 
-$dossier = '../../../img/';
+$dossier = '../../../img/event_2019/';
 $fichier = basename($_FILES['avatar']['name']);
 $taille_maxi = 3000000;
 $taille = filesize($_FILES['avatar']['tmp_name']);

@@ -4,7 +4,7 @@
 session_start();
 
 // connexion a la base de donnée 
-include ('../../include/connexiondbval.php');
+include ('../../include/connexiondb.php');
 
 // réccupération des variable 
 $team = $_SESSION['team'];
